@@ -1,0 +1,69 @@
+{
+    "xs": "8",
+    "2xs": "6",
+    "3xs": "4",
+    "xl": "18",
+    "4xs": "2",
+    "2xl": "20",
+    "3xl": "22",
+    "4xl": "24",
+    "small": "10",
+    "large": "16",
+    "medium": "14",
+    "normal": "12",
+    "splash_screen_delay": "3",
+    "minimum_password_length": "6",
+    "maximum_password_length": "12",
+    "name": "Compound Interest Calculator",
+    "grey_color_variant_1": {
+        "alpha": "104",
+        "color": "757575"
+    },
+    "gold_color_variant_1": {
+        "alpha": "255",
+        "color": "FFB24D"
+    },
+    "calculator_fields": [
+        {
+            "sl_no": 1,
+            "label": "Principle",
+            "type": "text_field",
+            "form_field": "false"
+        },
+        {
+            "sl_no": 2,
+            "label": "Rate of interest",
+            "type": "drop_down",
+            "form_field": "false",
+            "drop_down_values": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "sl_no": 3,
+            "label": "Compound Count",
+            "type": "drop_down",
+            "form_field": "false"
+        },
+        {
+            "sl_no": 4,
+            "label": "Years",
+            "type": "drop_down",
+            "form_field": "false"
+        }
+    ]
+}
