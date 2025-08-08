@@ -1,9 +1,8 @@
+import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../../extensions/extensions.dart';
 import '../../../utils/keys.dart';
-import '../../../utils/values.dart';
 
 class ThemedAppBar extends StatelessWidget implements PreferredSizeWidget {
   final ShapeBorder? shape;
@@ -80,9 +79,9 @@ class ThemedAppBar extends StatelessWidget implements PreferredSizeWidget {
         bottomOpacity: bottomOpacity ?? 1.0,
         toolbarOpacity: toolbarOpacity ?? 1.0,
         systemOverlayStyle: systemOverlayStyle,
-        backgroundColor: context.theme.primaryColor,
+        backgroundColor: context.themeMaterial.primaryColor,
         scrolledUnderElevation: scrolledUnderElevation,
-        foregroundColor: context.theme.secondaryHeaderColor,
+        foregroundColor: context.themeMaterial.secondaryHeaderColor,
         excludeHeaderSemantics: excludeHeaderSemantics ?? false,
         automaticallyImplyLeading: automaticallyImplyLeading ?? true,
         forceMaterialTransparency: forceMaterialTransparency ?? false,

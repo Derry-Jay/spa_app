@@ -1,6 +1,6 @@
-# Compound Interest Calculator
+# Spa Listing
 
-A Flutter application to calculate compound interest.
+A Flutter application to show the available Spas.
 
 ## Getting Started
 

@@ -1,8 +1,9 @@
 import 'dart:convert';
-
-import 'package:compound_interest_calculator/extensions/extensions.dart';
+import 'package:common_utils/common_utils.dart';
 
 import '../../utils/enums.dart';
+
+import '../../extensions/extensions.dart';
 
 class Field {
   int slNo = 0;

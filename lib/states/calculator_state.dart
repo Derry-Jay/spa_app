@@ -1,3 +1,5 @@
+import 'package:common_utils/common_utils.dart';
+
 import '../extensions/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:june/june.dart';
@@ -6,9 +8,6 @@ import '../models/common/field.dart';
 import '../utils/enums.dart';
 import '../utils/methods.dart';
 import '../utils/values.dart';
-import '../views/widgets/common/custom_drop_down.dart';
-import '../views/widgets/common/custom_text_field.dart';
-import '../views/widgets/common/empty_widget.dart';
 
 class CalculatorState extends JuneState {
   num amt = 0;

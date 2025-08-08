@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.compound.interest">
    <application
-        android:label="Compound Interest Calculator"
+        android:label="Spa Listing"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,0 +1,1 @@
+rm -rf *.log ; cd android || exit ; rm -rf *.log ; cd .. ; cd ios || exit ; rm -rf *.log ; cd ..

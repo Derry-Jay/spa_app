@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../models/common/shade.dart';
-
+import 'package:common_utils/common_utils.dart';
 class Shades {
   static final Shades _singleton = Shades._internal();
 

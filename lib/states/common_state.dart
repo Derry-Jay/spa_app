@@ -3,11 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:june/june.dart';
 
-import '../extensions/extensions.dart';
-import '../models/common/progress.dart';
+import 'package:common_utils/common_utils.dart';
 import '../utils/keys.dart';
-import '../utils/methods.dart';
-import '../utils/values.dart';
 
 class CommonState extends JuneState with AnimationLocalStatusListenersMixin {
   static final CommonState _singleton = CommonState._internal();
